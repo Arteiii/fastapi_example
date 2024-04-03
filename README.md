@@ -23,7 +23,7 @@ poetry install
 ### Run the FastAPI app
 
 ```bash
-poetry run uvicorn fastapi-example.main:app --host 0.0.0.0 --port 80
+poetry run uvicorn fastapi-example.main:app --host 0.0.0.0 --port 8080
 ```
 
 Open your web browser and go to <http://localhost:80> to access the app.
